@@ -1,0 +1,16 @@
+<template>
+  <el-config-provider :locale="locale">
+    <router-view/>
+  </el-config-provider>
+</template>
+
+<script setup>
+import { locale } from './element-plus'
+</script>
+
+<style>
+  html, body, #app {
+    background-color: #555;
+    margin: 0;
+  }
+</style>
